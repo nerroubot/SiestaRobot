@@ -58,7 +58,6 @@ from telegram.utils.helpers import escape_markdown
 from SiestaRobot.modules.language import gs
 
 
-
 def get_readable_time(seconds: int) -> str:
     count = 0
     ping_time = ""
@@ -84,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph/file/76168c709b90c19c8549f.jpg"
+SIESTA_IMG = "https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @saint_foire \
@@ -411,14 +410,14 @@ def siesta_about_callback(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "about_button"), url="https://t.me/skpbdt"),
+                            InlineKeyboardButton(text=gs(chat.id, "about_button"), callback_data="siesta_"),
                         ],
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), switch_inline_query_current_chat=""),
                         ],
                         [
-                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/alvaroxrobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "add_bot_to_group_button"), url="t.me/Siestaxbot?startgroup=new"),
                         ]
                     ]
                 ),
