@@ -92,6 +92,7 @@ back_button: "Go back"
 about_button: "Owner"
 inline_button: "Support​​"
 lang_button: "🌐 Language"
+music_button: "Music"
 
 # MODULES
 admin_help: |
