@@ -216,6 +216,10 @@ def start(update: Update, context: CallbackContext):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="https://t.me/sinisatt"),
                         ],
                         [
+                            InlineKeyboardButton(text=gs(chat.id, "lang_button"), callback_data="setLang_"),
+                            InlineKeyboardButton(text=gs(chat.id, "music_button"), callback_data="musicplayer_help"),
+                        ],
+                        [
                             InlineKeyboardButton(
                                 text=gs(chat.id, "add_bot_to_group_button"), url="t.me/alvaroxrobot?startgroup=new"),
                         ]
