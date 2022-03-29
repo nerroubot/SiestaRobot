@@ -209,6 +209,8 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
+                            InlineKeyboardButton(
+                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/alvaroxrobot?startgroup=new"),
                             InlineKeyboardButton(text=gs(chat.id, "about_button"), url="https://t.me/skpbdt"),
                         ],
                         [
@@ -216,8 +218,7 @@ def start(update: Update, context: CallbackContext):
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="https://t.me/sinisatt"),
                         ],
                         [
-                            InlineKeyboardButton(
-                                text=gs(chat.id, "add_bot_to_group_button"), url="t.me/alvaroxrobot?startgroup=new"),
+                            InlineKeyboardButton(text=gs(chat.id, "about_button"), url="https://t.me/skpbdt"),
                         ]
                     ]
                 ),
