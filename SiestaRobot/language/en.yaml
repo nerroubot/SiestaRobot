@@ -91,7 +91,6 @@ help_button: "Get Help"
 back_button: "Go back"
 about_button: "Owner"
 inline_button: "Support​​"
-lang_button: "🌐 Language"
 
 # MODULES
 admin_help: |
