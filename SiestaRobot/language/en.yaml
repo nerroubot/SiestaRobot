@@ -9,13 +9,13 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *Hello Everybody, {} ❤️*
-  ✪ Mengelola grup+A telegram music+video streaming [✨](https://telegra.ph/file/5de863d0a75fb0d563c33.jpg)
+  *Hello Everybody, {} 
+  ✪ Manage groups+Music in groups+Video streaming [✨](https://telegra.ph/file/5de863d0a75fb0d563c33.jpg)
 
-  ┏━━━━━━━━      ━━━━━━━━┓
+  ┏━━━━━━━━          ━━━━━━━━┓
   × *Server Uptime :* `{}`
   × `{}` *users, across* `{}` *chats.*
-  ┗━━━━━━━━      ━━━━━━━━┛
+  ┗━━━━━━━━          ━━━━━━━━┛
 
   ✪ Hit /help to see my available commands.
    
