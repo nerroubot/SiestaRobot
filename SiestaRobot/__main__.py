@@ -58,6 +58,7 @@ from telegram.utils.helpers import escape_markdown
 from SiestaRobot.modules.language import gs
 
 
+
 def get_readable_time(seconds: int) -> str:
     count = 0
     ping_time = ""
@@ -214,9 +215,6 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(text=gs(chat.id, "help_button"), callback_data="help_back"),
                             InlineKeyboardButton(text=gs(chat.id, "inline_button"), url="https://t.me/sinisatt"),
-                        ],
-                        [
-                            InlineKeyboardButton(text=gs(chat.id, "lang_button"), callback_data="setLang_"),
                         ],
                         [
                             InlineKeyboardButton(
