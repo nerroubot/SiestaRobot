@@ -10,7 +10,7 @@ set_chat_lang: "Bagus, menggunakan Bahasa {} mulai sekarang!"
 # PM Text
 pm_start_text: |
   *Hello Everybody, {} 
-  ✪ Kelola grup Musik di grup dan Streaming video [✨](https://telegra.ph/file/5de863d0a75fb0d563c33.jpg)
+  ✪ Mengelola grup Musik di grup dan Streaming video [✨](https://telegra.ph/file/5de863d0a75fb0d563c33.jpg)
 
   ┏━━━━━━━━          ━━━━━━━━┓
   × *Waktu Operasi Server :* `{}`
